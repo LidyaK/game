@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(84 77 84);
+    /* background-color: rgb(72 157 21); */
+}
+
+header {
+    position: relative;
+    height: 33vh;
+    border-bottom: 30px solid #857c84;
+}
+
+.tryAgain {
+    text-align: left;
+    width: fit-content;
+    font-size: 1.2rem;
+    background: #b3b933;
+    color: whitesmoke;
+    padding: .8rem;
+    margin: 1.5rem;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: seashell;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    border: 3rem #f3ecf5;
+    border-radius: 1rem; 
+    border-style: outset;
+    border-width: 2px;
+    padding: 1.2rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: silver;
+    margin-top: 1.5%;    
+}
+
+.number {
+    background: #857c84;
+    color: #f3ecf5;
+    font-size: 6rem;
+    width: 8rem;
+    padding: .5rem 0rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 60%);
+    border-radius: 1.5rem;
+}
+
+input {
+    background: #f3ecf5;
+    border-radius: .3rem;
+    padding: .9rem;
+}
+
+.btn {
+    text-align: center;
+    font-size: 1.2rem;
+    background: #b3b933;
+    color: whitesmoke;
+    padding: .8rem;
+    margin: 1.5rem;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+main {
+    height: 40vh;
+    color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right {
+
+}
+
+.message {
+    color: #f3ecf5;
+    font-size: 2.5rem;
+    padding-bottom: 1.8rem;
+}
